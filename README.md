@@ -5,6 +5,13 @@ Este proyecto aplica técnicas avanzadas de machine learning y ciencia de datos 
 
 Este repositorio contiene un proyecto de ciencia de datos y machine learning que utiliza sensores de sala para predecir la ocupación en tiempo real. El modelo utiliza un clasificador de vectores de soporte (SVM) con un kernel de función de base radial (RBF) y se beneficia de una reducción de dimensionalidad preliminar a través del Análisis de Componentes Principales (PCA).
 
+## Características Clave:
+Análisis Exploratorio de Datos (EDA): Profunda inmersión en los patrones y correlaciones de los datos sensoriales.
+Preprocesamiento y Reducción de Dimensionalidad: Normalización de datos y PCA para simplificar los conjuntos de datos sin comprometer la información esencial.
+Modelización Predictiva: Implementación de SVM con kernel RBF, optimizado para lograr la máxima precisión.
+Validación Cruzada: Uso de k-fold cross-validation para garantizar la generalización del modelo.
+Interpretación de Resultados: Evaluación detallada del rendimiento del modelo utilizando métricas como la precisión, recall y F1-score.
+
 ## Estructura del Repositorio
 
 - `occupancy_prediction.ipynb`: Cuaderno de Jupyter con todo el proceso de análisis de datos, desde la exploración inicial hasta el entrenamiento y la evaluación del modelo SVM.
