@@ -15,7 +15,7 @@ Interpretación de Resultados: Evaluación detallada del rendimiento del modelo 
 ## Estructura del Repositorio
 
 - `occupancy_prediction.ipynb`: Cuaderno de Jupyter con todo el proceso de análisis de datos, desde la exploración inicial hasta el entrenamiento y la evaluación del modelo SVM.
-- `data/`: Directorio que contiene el conjunto de datos utilizado (nota: agregar datos si es posible/legal compartirlos).
+- `data`: Contenida en el archivo 'Occupancy_Estimation.csv' 
 - `requirements.txt`: Archivo que lista todas las dependencias necesarias para ejecutar el proyecto.
 - `LICENSE`: El archivo de licencia del proyecto.
 
